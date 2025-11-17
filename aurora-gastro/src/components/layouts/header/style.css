@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.nav-header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.header-button {
+    background-color: #EA6D27;
+    padding: 23px 30px;
+    border-radius: 15px 3px 15px 3px;
+}
+
+.header-button a {
+    text-decoration: none;
+    color: white;
+}

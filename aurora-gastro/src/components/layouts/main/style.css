@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 60px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-main h1 {
+    font-size: 55px;
+    width: 550px;
+    margin: 0;
+}
+
+.content-main h1 span {
+    color: #EA6D27;
+}
+
+.content-main p {
+    width: 550px;
+    font-size: 16px;
+    color: #5C6574;
+}
+
+.conteiner-btn-main {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary {
+    background-color: #101821;
+    padding: 12px 30px;
+    color: #fff;
+    border-radius: 15px 3px;
+}
+
+ a {
+        text-decoration: none;
+    }
+
+.btn-secondary {
+    background-color: #EA6D27;
+    padding: 12px 30px;
+    color: #fff;
+    border-radius: 15px 3px;
+}
