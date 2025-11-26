@@ -13,19 +13,21 @@ main {
 }
 
 .content-main h1 {
+    font-family: var(--font-family-title);
     font-size: 55px;
     width: 550px;
     margin: 0;
 }
 
 .content-main h1 span {
-    color: #EA6D27;
+    color: var(--color-orange);
 }
 
 .content-main p {
     width: 550px;
     font-size: 16px;
-    color: #5C6574;
+    font-family: var(--font-family-body);
+    color: var(--color-l_gray);
 }
 
 .conteiner-btn-main {
@@ -34,7 +36,8 @@ main {
 }
 
 .btn-primary {
-    background-color: #101821;
+    background-color: var(--color-dark);
+    font-family: var(--font-family-title);
     padding: 12px 30px;
     color: #fff;
     border-radius: 15px 3px;
@@ -45,7 +48,8 @@ main {
     }
 
 .btn-secondary {
-    background-color: #EA6D27;
+    background-color: var(--color-orange);
+    font-family: var(--font-family-title);
     padding: 12px 30px;
     color: #fff;
     border-radius: 15px 3px;

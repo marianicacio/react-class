@@ -1,0 +1,15 @@
+.card-difference {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 257px;
+    text-align: center;
+    max-height: 260px;
+    padding: 20px 20px 20px 20px;
+    border: solid 1px var(--color-l_gray);
+}
+
+.card-difference img {
+    max-width: 84px;
+}

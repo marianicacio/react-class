@@ -15,10 +15,11 @@ header {
     text-decoration: none;
     color: black;
     font-size: 16px;
+    font-family: var(--font-family-body);
 }
 
 .header-button {
-    background-color: #EA6D27;
+    background-color: var(--color-orange);
     padding: 23px 30px;
     border-radius: 15px 3px 15px 3px;
 }

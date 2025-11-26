@@ -1,5 +1,6 @@
 import { Header } from "./components/layouts/header"
 import {Main} from "./components/layouts/main"
+import { SectionDifferences } from "./components/layouts/sectionDifferences"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <Main/>
+      <SectionDifferences/>
     </>
   )
 }
